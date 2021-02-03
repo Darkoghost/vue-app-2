@@ -43,7 +43,9 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: black;
-  background-image: url("images/background2.jpg");
+}
+body{
+  background-image: url("assets/background2.jpg");
 }
 
 #nav {
