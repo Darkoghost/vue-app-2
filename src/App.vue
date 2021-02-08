@@ -2,34 +2,15 @@
   <div id="app">
     <div id="nav">
       <router-link to="/">Accueil</router-link> |
-      <router-link to="/perso">Personnages</router-link> |
-      <router-link to="/world">Mondes</router-link> |
-      <router-link to="/about">A propos</router-link>
+      <router-link to="/personnages">Personnages</router-link> |
+      <router-link to="/planetes">Planètes</router-link> |
+      <router-link to="/a_propos">A propos</router-link>
     </div>
     <router-view/>
   </div>
 </template>
 
 <script>
-import axios from "axios";
-
-export default {
-  name: 'app',
-  data() {
-    return {
-      test: []
-    }
-  },
-  beforeCreate() {
-    axios
-        .get('https://swapi.dev/api/people/1/')
-    .then(res => {
-      this.test = res.data
-      console.log(res.data)
-    })
-
-  }
-}
 
 
 </script>
