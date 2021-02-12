@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["about"],{d2e5:function(t,e,a){"use strict";a.r(e);var n=function(){var t=this,e=t.$createElement;t._self._c;return t._m(0)},r=[function(){var t=this,e=t.$createElement,a=t._self._c||e;return a("div",{staticClass:"about"},[a("h1",{staticClass:"text-light"},[t._v("Cette page a été créer par Julien, un grand fan de star wars")])])}],s=a("2877"),l={},u=Object(s["a"])(l,n,r,!1,null,null,null);e["default"]=u.exports}}]);
+//# sourceMappingURL=about.35ca5766.js.map
