@@ -4,6 +4,7 @@
       <router-link to="/">Accueil</router-link> |
       <router-link to="/personnages">Personnages</router-link> |
       <router-link to="/planetes">Planètes</router-link> |
+      <router-link to="/vaisseaux">Vaisseaux</router-link> |
       <router-link to="/a_propos">A propos</router-link>
     </div>
     <router-view/>

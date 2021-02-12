@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Accueil from '../views/Accueil.vue'
 import Personnages from '../views/Personnages.vue'
 import Mondes from '../views/Mondes.vue'
+import Vaisseaux from "@/views/Vaisseaux";
 
 Vue.use(VueRouter)
 
@@ -21,6 +22,11 @@ const routes = [
     path: '/planetes',
     name: 'Mondes',
     component: Mondes
+  },
+  {
+    path: '/vaisseaux',
+    name: 'Vaisseaux',
+    component: Vaisseaux
   },
   {
     path: '/a_propos',
